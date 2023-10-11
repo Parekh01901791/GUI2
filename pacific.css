@@ -1,0 +1,137 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/* sets the picture as background image */
+
+body {
+	background-image: url(ptrbackground.jpg);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Makes the wrapper class and has the margins automatically move and adjust */
+
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #88cbec;
+}
+
+/* Using table-cell to set the nav side by side with the content and pushes it to the left */
+
+nav {
+	display: table-cell;
+	float: left;
+}
+
+
+/* Removes the bullets, adds padding, and changes margin and width */
+
+nav ul {
+	
+	font-size: 1.2em;
+	padding-right: 10px;
+	list-style-type: none;
+	margin-left: -20px;
+	width: auto;
+}
+
+/* Removes underlines and adds bold */
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+makes the span bold
+
+.resort {
+	color: #4a8bb0;
+	font-weight: bold;
+}
+/* 
+nav a:visited {
+	color: #344873;
+} */
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* adds the table-cell has it lay side to nav */
+
+#content {
+	background-color: white;
+	display: table-cell;	
+	width: 65%;
+	padding: 20px;
+}
+
+/* pushes image to the left and pads */
+
+#content img {
+	float: left;
+	padding-right: 20px;
+}
+
+/* This tabs the bullets and adds the pic as the bullet and stops the repeat */
+
+#content ul {
+	list-style: inside url('marker.gif') no-repeat;
+
+}
+
+
+header {
+	background-color: #000033;
+	background-size: 80%;
+	
+}
+
+/* Sets susnset to the right and makes the rest of the whitespace a matching color to the black of the image */
+
+h1 {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	margin-bottom: 0;
+	padding: 10px;
+	color: white;
+}
+h2 {
+	color: #3399CC;
+}
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+
+/* adds padding, pushes margin to the left, italicizes it */
+
+footer {
+	background-color: white;
+
+	padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 150px;
+    font-style: italic;
+	
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Adds underline and sets the color and takes away bold */
+
+footer a{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #2904fa;
+}
