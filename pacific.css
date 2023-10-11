@@ -1,3 +1,12 @@
+/* File: pacific.css
+GUI Assignment: GUI HW2
+Mihir Parekh, UMass Lowell Computer Science,
+mihir_parekh@student.uml.edu
+Copyright (c) 2021 by Wenjin. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on October 10, 2021 at 9:45 PM  */
+
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
